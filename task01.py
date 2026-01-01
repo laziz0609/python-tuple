@@ -12,4 +12,4 @@ def find_oldest_person(people: list[tuple[str, int]]) -> tuple[str, int] | None:
 
     return oldest_person
 
-print(find_oldest_person(people))
+print(f"{find_oldest_person(people)}")
